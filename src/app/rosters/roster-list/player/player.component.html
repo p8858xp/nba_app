@@ -1,0 +1,29 @@
+<a 
+style="cursor: pointer"
+[routerLink]="[index]"
+routerLinkActive="active"
+class="list-group-item clearfix">
+<div class="pull-left">
+  <h4 class="list-group-item-heading">{{ player.name }}<span style="margin-left: 10px;"><h6 style="display: inline-block">{{player.num}}</h6></span></h4>
+  <p class="list-group-item-text">Age: {{ player.age }}</p>
+</div>
+<div class="pull-right">
+    <span style="margin-left: 20px;">
+        Height: {{player.height}}
+    </span>
+    <span style="margin-left: 20px;">
+        Weight: {{player.weight}}
+    </span>
+    <span style="margin-left: 20px;">
+        Position: {{player.position}}
+    </span>
+    <span style="margin-left: 20px;">
+        School: {{player.school}}
+    </span>
+</div>
+</a>
+
+
+
+
+

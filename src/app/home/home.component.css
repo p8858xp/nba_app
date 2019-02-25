@@ -1,0 +1,52 @@
+#LA{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  color: gold;
+  font-size: 6em;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: purple;
+  opacity: .5;
+}
+#ala{
+    text-decoration: none;
+}
+#ala:link{
+    color: gold;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: purple;
+}
+#ala:visited{
+    color: gold;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: purple;
+}
+#ala:hover{
+    opacity: 1.0;
+    color: purple;
+}
+#ala:active{
+    color: purple;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: purple;
+}
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+  

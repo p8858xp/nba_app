@@ -1,0 +1,33 @@
+<div class="fade-in-up">
+    <h1 id="heading">LAKERS LINEUP</h1>
+    <div class="row">
+      <div class="col-xs-12">
+        <form>
+          <div class="row">
+            <div class="col-sm-3 form-group">
+              <label for="name">Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                class="form-control"
+                #nameInput>
+                <button class="btn btn-primary" type="submit" (click)="onSearch()">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>      
+    <div class="row">
+      <div class="col-xs-12">
+        <app-player
+        *ngFor="let playerEl of players; let i = index"
+        [player] = "playerEl"
+        [index] = "i"
+        >
+        </app-player>
+      </div>
+    </div>
+</div>
+<hr>
+
+

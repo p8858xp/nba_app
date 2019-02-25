@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="fade-in-up">
+  <h1 id="heading">LAKERS STATS</h1>
+  <div class="row">
+    <div class="col-xl-12">
+      <app-stats
+      *ngFor="let playerstatEl of playerstats; let i = index"
+      [playerstat] = "playerstatEl"
+      [index] = "i"
+      >
+      </app-stats>
+    </div>
+  </div>
+</div>
+<hr>

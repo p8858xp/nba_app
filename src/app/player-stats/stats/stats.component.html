@@ -1,0 +1,42 @@
+<a 
+style="cursor: pointer"
+[routerLink]="[index]"
+routerLinkActive="active"
+class="list-group-item clearfix">
+<div class="pull-left">
+  <h4 class="list-group-item-heading">{{ playerstat.name }}</h4>
+  <p class="list-group-item-text">Age: {{ playerstat.age }}</p>
+</div>
+<div class="pull-right">
+    <span style="margin-left: 5px;">
+        Points: {{playerstat.pts}}
+    </span>
+    <span style="margin-left: 15px;">
+        Assists: {{playerstat.ast}}
+    </span>
+    <span style="margin-left: 15px;">
+        Blocks: {{playerstat.blk}}
+    </span>
+    <span style="margin-left: 15px;">
+        Defensive Rebounds: {{playerstat.dreb}}
+    </span>
+    <span style="margin-left: 15px;">
+        Offensive Rebounds: {{playerstat.oreb}}
+    </span>
+    <span style="margin-left: 15px;">
+        Steals: {{playerstat.stl}}
+    </span>
+    <span style="margin-left: 15px;">
+        3PT FG%: {{playerstat.fg3Pct}}
+    </span>
+    <span style="margin-left: 15px;">
+        FG%: {{playerstat.fgPct}}
+    </span>
+    <span style="margin-left: 15px;">
+        FT%: {{playerstat.ftPct}}
+    </span>
+    <span style="margin-left: 15px;">
+        +/-: {{playerstat.plusMinus}}
+    </span>
+</div>
+</a>
